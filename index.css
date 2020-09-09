@@ -1,0 +1,178 @@
+/* reset css */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+/* HTML5 display-role reset */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* every element is a border-box */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* start your css here */
+
+body {
+    width: 90%;
+    margin: auto;
+    font-family: 'Roboto Mono', serif;
+}
+header {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+img { 
+    width: 100%;
+}
+.nav {
+    border: 2px;
+    margin: 1%;
+    padding: 1%;
+    width: 60%;
+    display: inline-block;
+}
+.l {
+    margin: 1%;
+    padding: 1%;
+    width: 25%;
+    min-width: 150px;
+    display: inline-block;
+}
+.a1 {
+    background-color: #FF764E;
+    color: white;
+    border: 5px;
+    border-radius: 18%;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+}
+.a2 {
+    background-color: #5ED3EB;
+    color: white;
+    border: 5px;
+    border-radius: 18%;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+}
+.a3 {
+    background-color: #FFCD69;
+    color: white;
+    border: 5px;
+    border-radius: 18%;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block;
+}
+.circle {
+    border-radius: 80%;
+    width: 18%;
+    padding-bottom: 5px;
+}
+.header {
+    border: 2px;
+    margin: 1%;
+    width: 100%;
+    display: inline-block;
+    font-size: .75rem;
+}
+.header_text {
+    border: 2px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1%;
+    width: 30%;
+    min-width: 250px;
+    font-size: .75rem;
+}
+p { 
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: 'Chelsea Market', serif;
+    font-size: 2.5rem;
+}
+.main {
+    background-color: #DDB9A3;
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+.campfire {
+    width: 15%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 0%;
+    padding: 10px;
+}
+.camper {
+    width: 15%;
+    text-align: center;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    padding: 10px;
+}
+img {
+    width: 100%;
+    height: 250px;
+}
+span {
+    font-weight: bold;
+}
+.l2 {
+    margin: 1%;
+    padding: 1%;
+    width: 25%;
+    min-width: 150px;
+    display: inline-block;
+}
+.bottom_nav {
+    border: 2px;
+    margin: 1%;
+    padding: 1%;
+    width: 100%;
+    display: inline-block;
+}
+footer {
+    background-color: #F9E7DC; 
+    width: 50%;
+}
